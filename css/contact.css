@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+}
+.banner.page-head {
+    min-height: 160px;
+}
+.about {
+    background: #fff;
+        padding: 80px 0;
+}
+.banner {
+    background: url(../images/banner1.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    min-height: 160px;
+}
+/*联系*/
+.contact-title {
+    width: 200px;
+    margin: 0 auto;
+    font-size: 24px;
+    text-align: center;
+}
+.contact-title:before {
+    width: 34px;
+    height: 14px;
+    border-bottom: 3px solid #F896A9;
+    content: "";
+    display: block;
+    float: left;
+}
+.contact-title:after {
+    width: 34px;
+    height: 14px;
+    border-bottom: 3px solid #F896A9;
+    content: "";
+    display: block;
+    float: right;
+}
+.contact-c {
+    margin: 0 auto;
+    width: 1200px;
+}
+.contact-left {
+    width: 555px;
+    height: 233px;
+    margin-top: 40px;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.contact-left form input {
+    width: 553px;
+    height: 33px;
+}
+.contact-left #content {
+    width: 553px;
+    height: 53px;
+}
+.contact-left #submit {
+    width: 96px;
+    line-height: 38px;
+    background: #F896A9;
+    color: #FFFFFF;
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+    margin-left: 458px;
+}
+.contact-right {
+    width: 447px;
+    height: 233px;
+    margin-top: -233px;
+    float: right;
+}
+.right-title {
+    color: #F896A9;
+    font-size: 16px;
+}
+.right-content {
+    font-size: 12px;
+}
+.right-p1 {
+    text-indent: 2em;
+    margin-top: 15px;
+}
+.right-p2 {
+    text-indent: 2em;
+}
+.right-contact {
+    margin-top: 28px;
+}
+.right-contact1 {
+    font-size: 12px;
+    float: left;
+}
+.right-contact2 {
+    font-size: 12px;
+    margin-left: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+/*地图*/
+.map{
+   
+    margin: 0px auto;
+    margin-top: 130px;
+}
+#allmap{
+    
+    height: 317px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    background-color: rgb(243, 241, 236);
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-bottom: 200px;
+ }
+ .contact-map {
+  
+    height: 317px;
+    margin: 0 auto;
+}
+@media screen  and  (min-width:1200px){
+     .map{
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 130px;
+}
+#allmap{
+    width: 1000px;
+    height: 317px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    background-color: rgb(243, 241, 236);
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-bottom: 200px;
+ }
+ .contact-map {
+    width: 1000px;
+    height: 317px;
+    margin: 0 auto;
+}
+ }
+@media screen  and  (max-width:1200px){
+   
+ }
+ @media screen  and  (min-width:768px)  and  (max-width:992px){
+     
+
+ }
+ @media screen and  (max-width:768px){
+     .contact-right {
+    width: 447px;
+    height: 233px;
+    margin-top: 233px;
+    float: none;
+}
+  
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

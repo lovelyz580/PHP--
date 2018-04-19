@@ -1,0 +1,195 @@
+.text-center {
+    text-align: center;
+}
+.banner.page-head {
+    min-height: 160px;
+}
+.banner {
+    background: url(../images/banner1.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    min-height: 730px;
+}
+h3.tittle {
+    margin-bottom: 45px;
+    font-size: 36px;
+    font-family: 'Righteous-Regular';
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.services-list {
+    background: url(../images/banner2.jpg) fixed;
+    -webkit-background-size: cover;
+    min-height: 515px;
+}
+.ser-first-grid{
+
+    width: 22%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 16px;
+    padding-left: 17px;
+ }
+ @font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ 
+.ser-spa span {
+    font-size: 33px;
+    color: #fff;
+    background: #F896A9;
+    border-radius: 100%;
+    padding: 25px 25px;
+    text-align: center;
+}
+
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+ .conner{
+     background: "";
+     height: 600px;
+
+    background: url(../images/banner2.jpg) fixed;
+    -webkit-background-size: cover;
+    min-height: 515px;
+}
+ 
+ .glyphicon{
+     position: relative;
+     top: 1px;
+     display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+ }
+ .glyphicon-education:before {
+    content: "\e233";
+}
+
+.ser-first-grids{
+    height: 250px;
+}
+.ser-first-grid p {
+    margin: 0px 0 0 0;
+    font-size: 14px;
+    color: #464646;
+    line-height: 2em;
+}
+h3.tittle.t-three {
+    color: #F896A9;
+}
+.serv-list-info p {
+    margin: 0px auto 23px auto;
+    font-size: 14px;
+    color: #E6E6E6;
+    line-height: 2em;
+    width: 75%;
+    text-align: center;
+}
+.serv-list-grids {
+    margin-left: 257px;
+    height: 300px;
+    width: 1116px;
+}
+.col-md-4{
+    width: 30.333333%;
+    float: left;
+        position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.serv-list-grid ul {
+    margin: 0;
+    padding: 0;
+}
+.serv-list-grid ul li{
+    float: left;
+    list-style-type: none;
+    line-height: 2em;
+}
+.serv-list-grid ul li a {
+    text-align: left;
+    color: #e6e6e6;
+    font-size: 14px;
+    background: url(../images/icon3.png) no-repeat 0px 2px;
+    padding-left: 30px; 
+    
+}
+.services{
+    height: 405px;
+}
+.services-left {
+    float: left;
+    width: 15%;
+}
+.services-right {
+    float: right;
+    width: 80%;
+}
+.services-left p {
+    background: #000;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    padding: 12px;
+    margin: 0;
+    font-weight: 800;
+    -webkit-border-radius: 60%;
+}
+.services-left p:hover {
+    background: #F896A9;
+    -webkit-border-radius: 0%;
+    -webkit-transition: .5s all;
+}
+.services-right h3 {
+    margin: 0px 0 0 0;
+    font-size: 18px;
+    color: #F896A9;
+    line-height: 1.5em;
+    font-family: 'Righteous-Regular';
+}
+.services-right p {
+        text-align: left;
+    margin: 7px 0 0 0;
+    font-size: 14px;
+    color: #464646;
+    line-height: 2em;
+}
+
+
+
+
